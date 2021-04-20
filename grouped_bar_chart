@@ -13,7 +13,7 @@ data = np.random.randint(5, 20, (len(Epochs), len(cases)))
 
 # Generates dimensional metrics for the graph
 ind = np.arange(N)
-width = 1/(N+len(Epochs))
+width = 1/(N+len(Epochs)/2)
 
 # Iterates through the data and plots the bars
 for i, epoch in enumerate(data):
